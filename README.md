@@ -11,6 +11,7 @@ Algorithms:
 
 Leet Code problem solutions:
 - Roman string to int convertion (https://leetcode.com/problems/roman-to-integer/)
+- Same Tree, checks if two binary trees are the same (https://leetcode.com/problems/same-tree/)
 
 Binary Tree
 - Binary Tree creation
