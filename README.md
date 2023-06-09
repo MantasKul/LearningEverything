@@ -11,3 +11,7 @@ Algorithms:
 
 Leet Code problem solutions:
 - Roman string to int convertion (https://leetcode.com/problems/roman-to-integer/)
+
+Binary Tree
+- Binary Tree creation
+- Depth-First Search and printing it out
