@@ -10,11 +10,12 @@ Algorithms:
 - Binary Search
 
 Leet Code (easy) problem solutions:
-- Roman string to int convertion (https://leetcode.com/problems/roman-to-integer/)
-- Same Tree, checks if two binary trees are the same (https://leetcode.com/problems/same-tree/)
+- Roman string to int convertion (desc: https://leetcode.com/problems/roman-to-integer/)
+- Same Tree, checks if two binary trees are the same (desc: https://leetcode.com/problems/same-tree/)
 
 Leet Code (medium) problem solutions:
-- Reverse Int (https://leetcode.com/problems/reverse-integer/)
+- Reverse Int (desc: https://leetcode.com/problems/reverse-integer/)
+- Container With Most Water (desc: https://leetcode.com/problems/container-with-most-water/)
 
 Binary Tree
 - Binary Tree creation
