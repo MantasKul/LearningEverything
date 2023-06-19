@@ -10,12 +10,16 @@ Algorithms:
 - Binary Search
 
 Leet Code (easy) problem solutions:
-- Roman string to int convertion (desc: https://leetcode.com/problems/roman-to-integer/)
-- Same Tree, checks if two binary trees are the same (desc: https://leetcode.com/problems/same-tree/)
+- Roman string to int convertion (desc: https://leetcode.com/problems/roman-to-integer/
+solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeEasy/romanToInt.java)
+- Same Tree, checks if two binary trees are the same (desc: https://leetcode.com/problems/same-tree/
+solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeEasy/sameTree.java)
 
 Leet Code (medium) problem solutions:
-- Reverse Int (desc: https://leetcode.com/problems/reverse-integer/)
-- Container With Most Water (desc: https://leetcode.com/problems/container-with-most-water/)
+- Reverse Int (desc: https://leetcode.com/problems/reverse-integer/
+solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeMedium/reverseInt.java)
+- Container With Most Water (desc: https://leetcode.com/problems/container-with-most-water/
+solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeMedium/ContainerWithMostWater.java)
 
 Binary Tree
 - Binary Tree creation
