@@ -1,11 +1,11 @@
-package BinaryTree;
+package leetcodeMedium.BinaryTree;
 
 public class BinaryTree {
-    public Node root;
+    public BinaryNode root;
 
 
-    private Node addRecursive(Node current, int value) {
-        if(current == null) return new Node(value);
+    private BinaryNode addRecursive(BinaryNode current, int value) {
+        if(current == null) return new BinaryNode(value);
 
         if(value < current.value) current.left = addRecursive(current.left, value);
         else if (value > current.value) current.right = addRecursive(current.right, value);
@@ -18,20 +18,21 @@ public class BinaryTree {
         root = addRecursive(root, value);
     }
 
-    public void traverseInOrder(Node node) {
+    // depth-first search
+    public void DFS(BinaryNode node) {
         if (node != null) {
-            traverseInOrder(node.left);
+            DFS(node.left);
             System.out.print(" " + node.value);
-            traverseInOrder(node.right);
+            DFS(node.right);
         }
     }
 }
 
-class Node {
+class BinaryNode {
     int value;
-    Node left;
-    Node right;
-    Node (int value) {
+    BinaryNode left;
+    BinaryNode right;
+    BinaryNode (int value) {
         this.value = value;
         this.left = null;
         this.right = null;
