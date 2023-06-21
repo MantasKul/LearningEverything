@@ -24,3 +24,6 @@ solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEver
 Binary Tree
 - Binary Tree creation
 - Depth-First Search and printing it out
+
+Graph
+- Graph, Vertex, Edge - used to construct a graph
