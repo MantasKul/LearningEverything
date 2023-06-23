@@ -15,6 +15,7 @@ solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEver
 - Same Tree, checks if two binary trees are the same (desc: https://leetcode.com/problems/same-tree/
 solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeEasy/sameTree.java)
 - Valid Parenthesis, checks if given string of parenthesis is valid (desc: https://leetcode.com/problems/valid-parentheses/description/ solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeEasy/ValidParentheses.java)
+- Remove Letter To Equalize Frequency (desc: https://leetcode.com/problems/remove-letter-to-equalize-frequency/ solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeEasy/RemoveLetterToEqualizeFrequency.java)
 
 Leet Code (medium) problem solutions:
 - Reverse Int (desc: https://leetcode.com/problems/reverse-integer/
