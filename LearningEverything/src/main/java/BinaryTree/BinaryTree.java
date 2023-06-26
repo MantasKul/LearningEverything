@@ -1,4 +1,4 @@
-package leetcodeMedium.BinaryTree;
+package BinaryTree;
 
 public class BinaryTree {
     public BinaryNode root;
