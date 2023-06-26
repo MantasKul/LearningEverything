@@ -22,6 +22,7 @@ Leet Code (medium) problem solutions:
 solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeMedium/reverseInt.java)
 - Container With Most Water (desc: https://leetcode.com/problems/container-with-most-water/
 solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeMedium/ContainerWithMostWater.java)
+- Remove Nth Node From End of List (desc: https://leetcode.com/problems/remove-nth-node-from-end-of-list/ solution: https://github.com/MantasKul/LearningEverything/blob/main/LearningEverything/src/main/java/leetcodeMedium/RemoveNthNodeFromEndofList.java)
 
 Binary Tree
 - Binary Tree creation
