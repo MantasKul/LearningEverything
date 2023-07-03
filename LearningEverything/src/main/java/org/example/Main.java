@@ -1,8 +1,12 @@
 package org.example;
 
 import Graphs.Graph;
+import Graphs.GraphTraverse;
+import Graphs.TestGraph;
 import Graphs.Vertex;
 import NaryTree.*;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,12 +40,19 @@ public class Main {
 //        root.addChild(3);
 //        root.addChild(4);
 
+        // Graph class testing
+//        Graph graph = new Graph(true, false);
+//        Vertex v1 = graph.addVertex("1");
+//        Vertex v2 = graph.addVertex("2");
+//
+//        graph.addEdge(v1, v2, 3);
+//
+//        graph.print();
 
-        Graph graph = new Graph(true, true);
-        Vertex v1 = graph.addVertex("1");
-        Vertex v2 = graph.addVertex("2");
-
-        graph.addEdge(v1, v2, 3);
-
+        // DFS
+        TestGraph test = new TestGraph();
+        ArrayList<Vertex> visited = new ArrayList<>();
+        visited.add(test.getStartingVertex());
+        GraphTraverse.DFS(test.getStartingVertex(), visited);
     }
 }

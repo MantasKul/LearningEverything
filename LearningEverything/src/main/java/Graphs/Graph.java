@@ -59,4 +59,11 @@ public class Graph {
         }
         return null;
     }
+
+    public void print() {
+        for(Vertex v: this.vertices) {
+            v.print(isWeighted);
+        }
+    }
+
 }
