@@ -30,4 +30,4 @@ Binary Tree
 
 Graph
 - Graph, Vertex, Edge - used to construct a graph
-- GrapgTravese - Class that has functions to traverse a graph in different ways (DFS, more to come)
+- GraphTravese - Class that has functions to traverse a graph in different ways (DFS, BFS)
