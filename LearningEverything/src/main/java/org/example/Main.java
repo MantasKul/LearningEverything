@@ -53,6 +53,7 @@ public class Main {
         TestGraph test = new TestGraph();
         ArrayList<Vertex> visited = new ArrayList<>();
         visited.add(test.getStartingVertex());
-        GraphTraverse.DFS(test.getStartingVertex(), visited);
+        //GraphTraverse.DFS(test.getStartingVertex(), visited);
+        GraphTraverse.BFS(test.getStartingVertex(), visited);
     }
 }
