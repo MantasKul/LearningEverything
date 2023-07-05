@@ -49,11 +49,34 @@ public class Main {
 //
 //        graph.print();
 
-        // DFS
-        TestGraph test = new TestGraph();
-        ArrayList<Vertex> visited = new ArrayList<>();
-        visited.add(test.getStartingVertex());
-        //GraphTraverse.DFS(test.getStartingVertex(), visited);
-        GraphTraverse.BFS(test.getStartingVertex(), visited);
+        // DFS and BFS
+//        TestGraph test = new TestGraph();
+//        ArrayList<Vertex> visited = new ArrayList<>();
+//        visited.add(test.getStartingVertex());
+//        //GraphTraverse.DFS(test.getStartingVertex(), visited);
+//        GraphTraverse.BFS(test.getStartingVertex(), visited);
+
+        // Dijkstra
+        Graph testGraph = new Graph(true, true);
+        Vertex a = testGraph.addVertex("A");
+        Vertex b = testGraph.addVertex("B");
+        Vertex c = testGraph.addVertex("C");
+        Vertex d = testGraph.addVertex("D");
+        Vertex e = testGraph.addVertex("E");
+        Vertex f = testGraph.addVertex("F");
+        Vertex g = testGraph.addVertex("G");
+
+        testGraph.addEdge(a, c, 100);
+        testGraph.addEdge(a, b, 3);
+        testGraph.addEdge(a, d, 4);
+        testGraph.addEdge(d, c, 3);
+        testGraph.addEdge(d, e, 8);
+        testGraph.addEdge(e, b, -2);
+        testGraph.addEdge(e, f, 10);
+        testGraph.addEdge(b, g, 9);
+        testGraph.addEdge(e, g, -50);
+
+        GraphTraverse.dijkstraResultPrinter(GraphTraverse.Dijkstra(testGraph, a));
+        GraphTraverse.shortestPath(testGraph, a, g);
     }
 }
