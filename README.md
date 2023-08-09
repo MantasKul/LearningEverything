@@ -4,6 +4,10 @@ This is a repo I will be using to keep various small projects/classes/methods/et
 
 This is for me to keep as a reference and for anyone else it might be relevant whether to get to know what I know or some other reasons.
 
+# TDD project
+
+This is a project to practice writing unit tests as well as get used to Test Driven Development
+
 # Packages in the project
 
 Algorithms:
