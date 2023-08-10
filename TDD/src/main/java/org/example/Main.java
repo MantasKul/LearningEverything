@@ -3,9 +3,6 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 3, 4, 5};
-        int x = 8;
-        binarySearch(arr, x);
     }
 
     public int compare(int n1, int n2) {
@@ -27,5 +24,32 @@ public class Main {
         }
 
         return -1;
+    }
+
+
+    public static long[] gapInPrimes(int gap, long m, long n) {
+        long[] primePair = {0, 0};
+
+        for(long i = m; i <= n; i++) {
+            if(isPrime(i)) {
+                primePair[0] = primePair[1];
+                primePair[1] = i;
+
+                if(primePair[1] - primePair[0] == gap) return primePair;
+            }
+        }
+
+        return null;
+    }
+    // Checks if number is prime
+    public static boolean isPrime(long number) {
+
+        if(number <= 1) return false;
+
+        for(long i=2; i <= number/2; i++) {
+            if((number%i) == 0) return false;
+        }
+
+        return true;
     }
 }
