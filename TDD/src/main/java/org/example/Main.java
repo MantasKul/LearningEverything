@@ -3,6 +3,11 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+        int n = 48823;
+        while(n > 0) {
+            System.out.println(n);
+            n = n / 10;
+        }
     }
 
     public int compare(int n1, int n2) {
